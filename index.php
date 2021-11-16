@@ -11,6 +11,9 @@
  $password = $_POST['pass'];
  if ($login=="admin" && $password=="1234"){
  header("Location: seleccion.html");
+}
+else if ($login=="servicio" && $password=="1234"){
+ header("Location: seleccion2.html");
  }
  else{
  header("Location: index.php");
@@ -25,7 +28,7 @@
         <form action="index.php" method="POST">        
         <input type="text" name="login" placeholder="Ingrese su nombre de usuario"> 
         <input type="password" name="pass" placeholder="Ingrese su contraseña"> 
-        <input type="submit" name="enviar" class="botonEnviar" value="ENVIAR">
+        <input type="submit" name="enviar" class="botonEnviar" value="Enviar">
         </form>
         <?php } ?>
         </section>

@@ -1,0 +1,28 @@
+body{
+    background-image: url(fondo.jpg);
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section{
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+a{
+    height: 68px;
+    width:410px;
+    border-radius: 34px;
+    background-color: #981B15 !important;
+    color:white !important; 
+    border: none;
+    font-size: 24px;
+    cursor:pointer;
+    text-decoration: none;
+    padding:10px;
+}
